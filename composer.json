@@ -1,0 +1,31 @@
+{
+	"name": "clickboxmobile/clickboxmobile-php",
+	"description": "clickboxmobile PHP Library",
+	"keywords": [
+	  "clickbox mobile",
+	  "tiempo aire electronico",
+	  "paquetes de datos",
+	  "pago de servicios",
+	  "telcel",
+	  "movistar",
+	  "restful api"
+	],
+	"homepage": "https://developers.clickbox.app/",
+	"license": "MIT",
+	"authors": [
+	  {
+		"name": "clickboxmobile",
+		"homepage": "https://github.com/clickboxmobile/clickboxmobile-php/"
+	  }
+	],
+	"require": {
+	  "php": "~7.0",
+	  "ext-curl": "*",
+	  "ext-json": "*"
+	},
+	"autoload": {
+	  "classmap": [
+		"library/clickbox/"
+	  ]
+	}
+  }
